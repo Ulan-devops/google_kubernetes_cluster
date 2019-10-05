@@ -1,5 +1,5 @@
 variable "cluster_name" {
-  default = "fuchicorp-cluster"
+  default = "farrukh-cluster"
 }
 
 variable "node_count" {
@@ -7,11 +7,11 @@ variable "node_count" {
 }
 
 variable "google_project_id" {
-  default = "universal-team-245120"
+  default = "ivory-forklift-220419"
 }
 
 variable "service_account_path" {
-  default = "./fuchicorp-service-account.json"
+  default = "./farrukh-service-account.json"
 }
 
 variable "region" {
@@ -19,5 +19,5 @@ variable "region" {
 }
 
 variable "bucket_name" {
-  default = "fuchicorp-bucket"
+  default = "farrukh-bucket"
 }
